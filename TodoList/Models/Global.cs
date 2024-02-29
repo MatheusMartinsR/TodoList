@@ -29,22 +29,22 @@ namespace TodoList.Models
             this.dataEntrega = dataEntrega;
         }
 
-        public virtual void RetornarTarefa()
+        protected virtual void RetornarTarefa()
         {
             Console.WriteLine("O nome da tarefa é: " + nome);
         }
 
-        public virtual void RetornarDescricao()
+        protected virtual void RetornarDescricao()
         {
             Console.WriteLine("A descrição da tarefa é: " + descricao);
         }
 
-        public virtual void RetornarResponsavel()
+        protected virtual void RetornarResponsavel()
         {
             Console.WriteLine("O nome do responsável é: " + responsavel);
         }
 
-        public virtual void RetornarDataEntrega()
+        protected virtual void RetornarDataEntrega()
         {
             Console.WriteLine("A data de entrega é: " + dataEntrega);
         }

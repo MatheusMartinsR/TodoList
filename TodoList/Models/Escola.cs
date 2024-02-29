@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TodoList.Models
 {
-    internal class Escola : Global
+    public class Escola : Global
     {
 
 

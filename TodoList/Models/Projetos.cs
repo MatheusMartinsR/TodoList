@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TodoList.Models
 {
-    internal class Projetos : Global
+    public class Projetos : Global
     {
         public string ideia { get; set; }
         public string desenvolvimento { get; set; }

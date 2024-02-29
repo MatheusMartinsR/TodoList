@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TodoList.Models
 {
-    internal class Casa : Global
+    public class Casa : Global
     {
 
        public string comodo { get; set; }
@@ -27,9 +27,14 @@ namespace TodoList.Models
             this.comodo = comodo;
         }
 
-        public virtual void RetornarComodo()
+        private void ImprimirComodo()
         {
             Console.WriteLine("O comodo é: " +comodo);
+        }
+
+        public virtual void RetornarComodo()
+        {
+            return this.ImprimirComodo();
         }
 
     }
