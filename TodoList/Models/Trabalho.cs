@@ -38,13 +38,14 @@ namespace TodoList.Models
             Console.WriteLine("O setor é: " + setor);
         }
 
-        public virtual void RestornarSetor(){
-            return this.DefinirSetor();
+        public virtual void RestornarSetor()
+        {
+            DefinirSetor();
         }
 
         public override void RetornarTarefa()
         {
-            return this.AtribuirTarefa();
+            AtribuirTarefa();
         }
 
     }

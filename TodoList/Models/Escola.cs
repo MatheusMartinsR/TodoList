@@ -16,7 +16,7 @@ namespace TodoList.Models
 
         public string professor { get; set; }
 
-        public Escola() : this(1, "Lição de Casa", "fazer lição de casa", "a definir", System.DateTime.Now, "trabalho", "a definir", "a definir")
+        public Escola() : this(1, "a definir", "a definir", "a definir", System.DateTime.Now, "a definir", "a definir", "a definir")
         {
 
         }

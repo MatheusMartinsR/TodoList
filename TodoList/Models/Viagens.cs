@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TodoList.Models
 {
-    internal class Viagens : Global
+    public class Viagens : Global
     {
         public string passeios { get; set; }
         public string compras { get; set; }
@@ -39,12 +39,12 @@ namespace TodoList.Models
 
         public virtual void RetornarCompras()
         {
-            return this.DefinirCompras();
+            DefinirCompras();
         }
 
-        public override void RetornarPasseio()
+        public virtual void RetornarPasseio()
         {
-            return this.AtribuirPasseio();
+            AtribuirPasseio();
         }
     }
 }

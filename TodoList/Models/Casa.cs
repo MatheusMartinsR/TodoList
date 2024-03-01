@@ -34,7 +34,7 @@ namespace TodoList.Models
 
         public virtual void RetornarComodo()
         {
-            return this.ImprimirComodo();
+            ImprimirComodo();
         }
 
     }
