@@ -100,9 +100,18 @@ switch (escolha)
             }
         } else if(decisaoEscola == "2")
         {
-            Console.WriteLine("Testando o metodo que retorna o dever, deve retornar o valor inserido no dever ");
-            escola.RetornarTarefa();
+
+             if(escola.dever == ""){
+            Console.WriteLine("Não há dever para ser feito");
+            }
+            else{
+                Console.WriteLine("Testando o metodo que retorna o dever, deve retornar o valor inserido no dever ");
+                escola.RetornarTarefa();
+            }
         }
+
+       
+
         break;
 
     case "3":
